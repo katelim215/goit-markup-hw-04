@@ -300,7 +300,7 @@ header {
     margin-bottom: 8px;
 }
 
-.customers{
+.customers {
     padding: 120px 0;
 }
 
@@ -321,10 +321,22 @@ header {
     justify-content: center;
 }
 
-.customer-logo-items svg {
+.customer-logo-icon {
+    padding: 16px 32px;
+}
+
+.customer-logo-icon svg {
     width: 104px;
     height: 56px;
     align-items: center;
+}
+
+.customer-logo-items:hover {
+    border: 1px solid var(--ocean);
+}
+
+.customer-logo-icon:hover {
+    fill: var(--ocean);
 }
 
 /* page footer */
@@ -479,4 +491,11 @@ header {
     width: calc((100% - 48px) / 3);
     border: 1px solid var(--cornflower);
     background: var(--white);
+}
+
+.portfolio-images-items:hover,
+.portfolio-images-items:focus {
+    border: 1px solid var(--CLOUD, #F4F4FD);
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
