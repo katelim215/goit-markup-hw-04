@@ -404,7 +404,7 @@ header {
 }
 
 .footer-link-list-icon:hover {
-    color: var(--green);
+    background-color: var(--green);
 }
 
 /* portfolio page */
